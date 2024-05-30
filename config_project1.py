@@ -1,10 +1,10 @@
 #!python config
 
 #oltp_conn_string = "postgresql://ftde01:ftde01-digitalskola@34.143.167.7:5432/ftde01_oltp"
-oltp_conn_string = "postgresql+psycopg2://postgres:qwerty123@localhost:5432/oltp_db"
+oltp_conn_string = "postgresql+psycopg2://postgres:qwerty123@localhost:5432/oltp_db" #pake lokal karena sering error db digital skola
 
 #warehouse_conn_string = "postgresql://ftde01:ftde01-digitalskola@34.143.167.7:5432/ftde01_dwh"
-warehouse_conn_string = "postgresql+psycopg2://postgres:qwerty123@localhost:5432/project1"
+warehouse_conn_string = "postgresql+psycopg2://postgres:qwerty123@localhost:5432/project1" #pake lokal biar ga numpuk
 
 oltp_tables = {
     "users": "tb_users",
